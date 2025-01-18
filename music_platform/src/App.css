@@ -1,36 +1,88 @@
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  height: 50px;
+  width: 50px;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.head1{
+  font-size: 25px;
+  font-weight: bold;
+  
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.com_name{
+  font-size: 20px;
+  font-weight: semi-bold;
+  align-items: center;
+}
+.icon{
+  font-size: 20px;
+}
+.searchbar_icon{
+  height: 33px;
+  width: auto;
+  margin: 7px;
+  padding: 3px;
+}
+.button_prof{
+ border-radius: 50%;
+ border-color: transparent;
+ background-color: transparent;
+ height: 50px;
+ width: 50px;
+}
+.nav_text{
+  font-weight:bold;
+  text-align: center;
+}
+.scrolling-message {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 19px;
+  white-space: nowrap;
+  color: red;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.scrolling-message span {
+  display: inline-block;
+  animation: scroll 10s linear infinite;
+}
+@keyframes scroll {
+  0% {
+      transform: translateX(100%);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+      transform: translateX(-100%);
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.search_bar{
+  width:175px;
+  height: 39px;
+  border-color: transparent;
+  outline: none;
+}
+.search_bar_left{
+   border-right-color: black;
+  border-radius: 10px;
+  border-top-right-radius:0px ;
+  border-bottom-right-radius: 0px;
+}
+.search_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  height: 40px;
+  border-radius: 10px;
+  border-color: black  !important;
+}
+.login_popup_bar{
+  font-size:25px;
+  font-weight: bold;
+  text-align: center !important; 
 }
 
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.login_popup_bar_loginbtn{
+  width: 100%;
 }
