@@ -2,25 +2,10 @@
 .logo {
   height: 50px;
   width: 50px;
-}
-.head1{
-  font-size: 25px;
-  font-weight: bold;
-  
-}
-.com_name{
-  font-size: 20px;
-  font-weight: semi-bold;
-  align-items: center;
+  margin:auto;
 }
 .icon{
   font-size: 20px;
-}
-.searchbar_icon{
-  height: 33px;
-  width: auto;
-  margin: 7px;
-  padding: 3px;
 }
 .button_prof{
  border-radius: 50%;
@@ -28,61 +13,4 @@
  background-color: transparent;
  height: 50px;
  width: 50px;
-}
-.nav_text{
-  font-weight:bold;
-  text-align: center;
-}
-.scrolling-message {
-  flex: 1;
-  overflow: hidden;
-  position: relative;
-  margin-left: 30px;
-  margin-top: 19px;
-  white-space: nowrap;
-  color: red;
-}
-
-.scrolling-message span {
-  display: inline-block;
-  animation: scroll 10s linear infinite;
-}
-@keyframes scroll {
-  0% {
-      transform: translateX(100%);
-  }
-  100% {
-      transform: translateX(-100%);
-  }
-}
-.search_bar{
-  width:175px;
-  height: 39px;
-  border-color: transparent;
-  outline: none;
-}
-.search_bar_left{
-   border-right-color: black;
-  border-radius: 10px;
-  border-top-right-radius:0px ;
-  border-bottom-right-radius: 0px;
-}
-.search_container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-  align-items: center;
-  height: 40px;
-  border-radius: 10px;
-  border-color: black  !important;
-}
-.login_popup_bar{
-  font-size:25px;
-  font-weight: bold;
-  text-align: center !important; 
-}
-
-.login_popup_bar_loginbtn{
-  width: 100%;
 }
