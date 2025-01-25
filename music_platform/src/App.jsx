@@ -12,7 +12,7 @@ function App() {
         </button>
         <a className="navbar-brand" href="#">
           <h1 className="d-flex flex-row justify-content-centre">
-            <img src="Icons_music_platform/icon_logo.png" alt="logo" className="logo" />
+            <img src="Icons_music_platform/icon_logo.png" alt="logo" className="logo" /> {/* spotify logo */}
           </h1>
         </a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
